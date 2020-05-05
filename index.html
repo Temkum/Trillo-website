@@ -14,6 +14,7 @@
 </head>
 
 <body>
+  <!-- header -->
   <div class="container">
     <header class="header">
       <img src="img/logo.png" alt="Trillo logo" class="logo">
@@ -27,6 +28,7 @@
         </button>
       </form>
 
+      <!-- nav bar -->
       <nav class="user-nav">
         <div class="user-nav__icon-box">
           <svg class="user-nav__icon">
@@ -48,6 +50,7 @@
       </nav>
     </header>
 
+    <!-- sidebar -->
     <div class="content">
       <nav class="sidebar">
         <ul class="side-nav">
@@ -89,8 +92,53 @@
         </div>
       </nav>
 
+      <!-- hotel view -->
       <main class="hotel-view">
-        hotel-view
+        <div class="gallery">
+          <figure class="gallery__item">
+            <img src="img/hotel-1.jpg" alt="photo hotel 1" class="gallery__photo">
+          </figure>
+          <figure class="gallery__item">
+            <img src="img/hotel-2.jpg" alt="photo hotel 2" class="gallery__photo">
+          </figure>
+          <figure class="gallery__item">
+            <img src="img/hotel-3.jpg" alt="photo hotel 3" class="gallery__photo">
+          </figure>
+        </div>
+
+        <div class="overview">
+          <h1 class="overview__heading">Hotel Notre Dame</h1>
+          <div class="overview__stars">
+            <svg class="overview__icon-star">
+              <use xlink:href="img/sprite.svg#icon-star"></use>
+            </svg>
+            <svg class="overview__icon-star">
+              <use xlink:href="img/sprite.svg#icon-star"></use>
+            </svg>
+            <svg class="overview__icon-star">
+              <use xlink:href="img/sprite.svg#icon-star"></use>
+            </svg>
+            <svg class="overview__icon-star">
+              <use xlink:href="img/sprite.svg#icon-star"></use>
+            </svg>
+            <svg class="overview__icon-star">
+              <use xlink:href="img/sprite.svg#icon-star"></use>
+            </svg>
+          </div>
+
+          <div class="overview__location">
+            <svg class="overview__icon-location">
+              <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+            </svg>
+            <button class="btn-inline">Buea, Cameroon</button>
+          </div>
+
+          <div class="overview__rating">
+            <div class="overview__rating-average">8.6</div>
+            <div class="overview__rating-count">429 votes</div>
+          </div>
+        </div>
+
       </main>
     </div>
   </div>
