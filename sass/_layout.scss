@@ -36,3 +36,24 @@
 
   flex: 1;
 }
+
+.detail {
+  display: flex;
+  padding: 4.5rem;
+  background-color: var(--gray-light1);
+  border-bottom: var(--line-bottom);
+}
+
+.description {
+  font-size: 1.4rem;
+  background-color: #fff;
+  box-shadow: var(--shadow-light);
+  flex: 0 0 60%;
+  padding: 3rem;
+  margin-right: 4.5rem;
+}
+
+.user-reviews {
+  background-color: green;
+  flex: 1;
+}
